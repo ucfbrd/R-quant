@@ -1,9 +1,9 @@
 library(moments)
-set.seed(12345)
+set.seed(1337)
 
-####### QUESTION 4
+# Brief example of a binomial tree exercise in R
 
-# Inputs given in the exercise
+# Inputs (arbitrary numbers)
 rf <- .03; mu <- 0.1; sigma <- 0.15; s0 <- 1; t <- 1; n <- 252
 Nsims <- c(1000,10000,100000)
 statlabel <- c("Mean","Standard Deviation","Kurtosis","Skewness")
